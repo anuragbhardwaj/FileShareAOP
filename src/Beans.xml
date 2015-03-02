@@ -25,7 +25,7 @@
    <!-- Definition for student bean -->
    <bean id="student" class="edu.sjsu.cmpe275.lab1.Student">
       <property name="name"  value="Zara" />
-      <property name="age"  value="11"/>      
+      <property name="age"  value="11"/>     
    </bean>
 
    <!-- Definition for logging aspect -->
