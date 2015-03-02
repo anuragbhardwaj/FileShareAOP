@@ -10,7 +10,7 @@
    <aop:config>
       <aop:aspect id="log" ref="logging">
          <aop:pointcut id="selectAll" 
-         expression="execution(* com.file.*.*(..))"/>
+         expression="execution(* edu.sjsu.cmpe275.lab1.*.*(..))"/>
          <aop:before pointcut-ref="selectAll" method="beforeAdvice"/>
          <aop:after pointcut-ref="selectAll" method="afterAdvice"/>
          <aop:after-returning pointcut-ref="selectAll" 
@@ -23,12 +23,12 @@
    </aop:config>
 
    <!-- Definition for student bean -->
-   <bean id="student" class="com.file.Student">
+   <bean id="student" class="edu.sjsu.cmpe275.lab1.Student">
       <property name="name"  value="Zara" />
       <property name="age"  value="11"/>      
    </bean>
 
    <!-- Definition for logging aspect -->
-   <bean id="logging" class="com.file.Logging"/> 
+   <bean id="logging" class="edu.sjsu.cmpe275.lab1.Logging"/> 
       
 </beans>

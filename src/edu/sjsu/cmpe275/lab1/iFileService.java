@@ -1,4 +1,4 @@
-package com.file;
+package edu.sjsu.cmpe275.lab1;
 
 public interface iFileService {
 	

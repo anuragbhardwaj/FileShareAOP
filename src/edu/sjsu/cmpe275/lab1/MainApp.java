@@ -1,4 +1,4 @@
-package com.file;
+package edu.sjsu.cmpe275.lab1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
